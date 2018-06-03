@@ -1,0 +1,38 @@
+
+**** Models ****
+-> House ['houseDetail', 'location', 'user', 'houseType', 'galleries']
+-> HouseDetail
+-> HouseType
+-> Location
+-> Region
+-> Gallery
+-> HouseFeature
+-> Favourite
+-> Review
+-> User
+-> Profile
+-> Role
+-> ContactMessage
+-> GuestMessage
+
+**** Relationship ****
+User <->> House (One to Many)
+User <-> Profile (One to One)
+User <->> ContactMessage (One to Many)
+User <->> GuestMessage (One to Many)
+User <=> Role (Many to Many)
+HouseType <->> House (One to Many)
+House <-> HouseDetail (One to One)
+House <-> Location (One to One)
+House <->> Review (One to Many)
+House <->> Gallery (One to Many)
+Region <->> Location (One to Many)
+
+**** Methods ****
+House =>
+scopeFilter($query, $filters)
+scopeRelatedHouse($query, $related_location)
+scopeNewHouses($query)
+scopeFeaturedHouse($query)
+scopeApartments($query, $apartment_id)
+scopeFavouriteHouses($query, $favHouseIds)

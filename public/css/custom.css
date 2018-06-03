@@ -1,0 +1,184 @@
+.border-right-none {
+    border-right: none!important;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+/*datatables overflow issue*/
+table.display {
+    table-layout:fixed;
+}
+
+th, td {
+    word-wrap:break-word;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-xs {
+    padding:  .2rem 0.8rem;
+    font-size:  .5rem;
+    line-height:  1.5;
+}
+
+.panel-body {
+    padding: 15px 0;
+}
+
+.text-blue {
+    color: #5989e5;
+}
+
+.black {
+    color: #202020 !important;
+}
+
+.fav-button:hover {
+    color: #5989e5 !important;
+}
+
+.image-preview {
+    border: 2px dashed #444;
+    margin-top: 20px;
+    padding: 30px;
+    color: #777;
+    font-size: 0.85rem;
+}
+
+.mr-3 {
+    margin-right: 30px;
+}
+
+.ml-3 {
+    margin-left: 30px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}
+
+.mb-3 {
+    margin-bottom: 50px;
+}
+
+.mr {
+    margin-right: 30px;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.pr-3 {
+    padding-right: 30px;
+}
+
+.pr-2 {
+    padding-right: 20px;
+}
+
+.pr-1 {
+    padding-right: 10px;
+}
+
+.pl-3 {
+    padding-left: 30px;
+}
+
+.pb-2 {
+    padding-bottom: 20px;
+}
+
+.font-2x {
+    font-size: 1.5rem;
+}
+
+.border-black-light {
+    border-color: #999;
+}
+
+.has-line::after{
+    content:'';
+    width:50px;
+    height:3px;
+    display:block;
+    margin-top:5px;
+    background:#5989e5;
+}
+
+/*.box {
+    padding: 20px 30px;
+}*/
+
+.noti {
+    border-radius: 30px;
+    background: #5989e5;
+    padding: 2px 6px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: white !important;
+}
+
+.r-40 {
+    border-radius: 40px;
+}
+
+.radius-sm {
+    border-radius: 10px;
+}
+
+.placeholder-right::-moz-placeholder{text-align:right}
+.placeholder-right::-webkit-input-placeholder{text-align:right}
+.placeholder-right:-ms-input-placeholder{text-align:right}
+
+.previous-text  {
+    color: #2b2b2b;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.d-none {
+    display: none;
+}
+
+.panel-padding {
+    padding: 15px;
+}
+
+.padding {
+    padding: 30px;
+}
+
+.t-white {
+    color: white;
+}
+
+.t-black {
+    color: #444;
+}
+
+.box-shadow {
+   -webkit-box-shadow: 5px 5px 30px -2px rgba(156,154,156,1);
+    -moz-box-shadow: 5px 5px 30px -2px rgba(156,154,156,1);
+    box-shadow: 5px 5px 30px -2px rgba(156,154,156,1);
+}
+
+.gallery::before {
+    content: url("/img/default-gallery.jpeg");
+}
+
+.s {
+    border: 3px solid;
+    border-color: #ddd;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px;
+    color: #00c0ef;
+}

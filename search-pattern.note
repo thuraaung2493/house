@@ -1,0 +1,63 @@
+
+       " min_price, max_price, min_area, max_area, type, region "
+
+min_price, max_price, min_area, max_area, type//
+min_price, max_price, min_area, max_area, region//
+min_price, min_area, max_area, type, region//
+max_price, min_area, max_area, type, region//
+min_price, max_price, max_area, type, region//
+min_price, max_price, min_area, type, region//
+
+
+
+
+
+
+
+min_price, max_price, min_area
+min_price, min_area, max_area
+min_price, max_area, type
+min_price, type, region
+max_price, min_area, max_area
+max_price, max_area, type
+max_price, type, region
+max_price, region, min_price
+min_area, max_area, type
+min_area, type, region
+min_area, region, min_price
+max_area, type, region
+max_area, region, min_price
+max_area, min_price, max_price
+type, min_price, max_price
+type, max_price, min_area
+region, min_price, max_price
+region, max_price, min_area
+region, min_area, max_area
+
+
+min_price max_price
+min_price min_area
+min_price max_area
+min_price type
+min_price region
+max_price min_area
+max_price max_area
+max_price type
+max_price region
+min_area max_area
+min_area type
+min_area region
+max_area type
+max_area region
+type region
+
+min_price
+max_price
+min_area
+max_area
+type
+region
+
+
+
+
